@@ -119,7 +119,7 @@ def runGame():
     def finishCommand():
         gameScreen.pack_forget()
         titleScreen.pack()
-    finishButton = Button(master=gameScreen,text = "Finsh", command=finishCommand)
+    finishButton = Button(master=gameScreen,text = "Finish", command=finishCommand)
     currentWordLabel.grid(row = 0)
     livesLabel.grid(row = 1)
     previousGuessesLabel.grid(row = 2)
